@@ -269,6 +269,7 @@ public static class In {
     public static readonly Identifier ItemAdd = _();
     public static readonly Identifier ItemDataUpdate = _();
     public static readonly Identifier ItemRemove = _();
+    public static readonly Identifier ItemRemoveMultiple = _();
     public static readonly Identifier ItemStateUpdate = _();
     public static readonly Identifier ItemUpdate = _();
     public static readonly Identifier Items = _();

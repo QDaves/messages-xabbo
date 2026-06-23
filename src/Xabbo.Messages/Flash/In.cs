@@ -1,11 +1,11 @@
-// Generated for the Flash client version WIN63-202410132312-548085391 from the Sulek API (https://sulek.dev/).
+// Generated for the Flash client version WIN63-202504171200-169586654 from the Sulek API (https://sulek.dev/).
 
 using System.Runtime.CompilerServices;
 
 namespace Xabbo.Messages.Flash;
 
 /// <summary>
-/// Generated for the Flash client version WIN63-202410132312-548085391 from the <a href="https://sulek.dev/">Sulek API</a>.
+/// Generated for the Flash client version WIN63-202504171200-169586654 from the <a href="https://sulek.dev/">Sulek API</a>.
 /// </summary>
 public static class In {
     private static Identifier _([CallerMemberName]string? name = null)
@@ -39,6 +39,7 @@ public static class In {
     public static readonly Identifier BadgePointLimits = _();
     public static readonly Identifier BadgeReceived = _();
     public static readonly Identifier Badges = _();
+    public static readonly Identifier BanInfo = _();
     public static readonly Identifier BannedUsersFromRoom = _();
     public static readonly Identifier BonusRareInfo = _();
     public static readonly Identifier BotAddedToInventory = _();
@@ -117,6 +118,9 @@ public static class In {
     public static readonly Identifier CurrentTimingCode = _();
     public static readonly Identifier CustomStackingHeightUpdate = _();
     public static readonly Identifier CustomUserNotification = _();
+    public static readonly Identifier DailyTasksActiveList = _();
+    public static readonly Identifier DailyTasksTaskUpdate = _();
+    public static readonly Identifier DailyTasksTasksAdded = _();
     public static readonly Identifier Dance = _();
     public static readonly Identifier DiceValue = _();
     public static readonly Identifier DisconnectReason = _();
@@ -302,6 +306,7 @@ public static class In {
     public static readonly Identifier ModeratorToolPreferences = _();
     public static readonly Identifier ModeratorUserInfo = _();
     public static readonly Identifier MuteAllInRoom = _();
+    public static readonly Identifier MyCfhReportStatus = _();
     public static readonly Identifier MysteryBoxKeys = _();
     public static readonly Identifier NavigatorCollapsedCategories = _();
     public static readonly Identifier NavigatorLiftedRooms = _();
@@ -316,9 +321,14 @@ public static class In {
     public static readonly Identifier NewUserExperienceGiftOffer = _();
     public static readonly Identifier NewUserExperienceNotComplete = _();
     public static readonly Identifier NftBonusItemClaimResult = _();
+    public static readonly Identifier NftClaimResult = _();
+    public static readonly Identifier NftClaims = _();
     public static readonly Identifier NftCollections = _();
     public static readonly Identifier NftCollectionsScore = _();
+    public static readonly Identifier NftEmeraldConvertResult = _();
     public static readonly Identifier NftRewardItemClaimResult = _();
+    public static readonly Identifier NftStoreOffers = _();
+    public static readonly Identifier NftStorePurchase = _();
     public static readonly Identifier NftTransferAssetsResult = _();
     public static readonly Identifier NftTransferFee = _();
     public static readonly Identifier NoOwnedRoomsAlert = _();
@@ -445,6 +455,8 @@ public static class In {
     public static readonly Identifier TargetedOfferNotFound = _();
     public static readonly Identifier ThreadMessages = _();
     public static readonly Identifier ThumbnailStatus = _();
+    public static readonly Identifier TradeNftAssetInventory = _();
+    public static readonly Identifier TradeNftAssets = _();
     public static readonly Identifier TradeOpenFailed = _();
     public static readonly Identifier TradeSilverFee = _();
     public static readonly Identifier TradeSilverSet = _();
@@ -477,6 +489,8 @@ public static class In {
     public static readonly Identifier UserNftWardrobe = _();
     public static readonly Identifier UserNftWardrobeSelection = _();
     public static readonly Identifier UserObject = _();
+    public static readonly Identifier UserPurchasableChatStyleChanged = _();
+    public static readonly Identifier UserPurchasableChatStyles = _();
     public static readonly Identifier UserRemove = _();
     public static readonly Identifier UserRights = _();
     public static readonly Identifier UserSongDisksInventory = _();
@@ -491,6 +505,8 @@ public static class In {
     public static readonly Identifier WiredAllVariableHolders = _();
     public static readonly Identifier WiredAllVariablesDiffs = _();
     public static readonly Identifier WiredAllVariablesHash = _();
+    public static readonly Identifier WiredClickUserResponse = _();
+    public static readonly Identifier WiredEnvironment = _();
     public static readonly Identifier WiredErrorLogs = _();
     public static readonly Identifier WiredFurniAction = _();
     public static readonly Identifier WiredFurniAddon = _();

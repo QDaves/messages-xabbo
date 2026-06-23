@@ -1,11 +1,11 @@
-// Generated for the Flash client version WIN63-202410132312-548085391 from the Sulek API (https://sulek.dev/).
+// Generated for the Flash client version WIN63-202504171200-169586654 from the Sulek API (https://sulek.dev/).
 
 using System.Runtime.CompilerServices;
 
 namespace Xabbo.Messages.Flash;
 
 /// <summary>
-/// Generated for the Flash client version WIN63-202410132312-548085391 from the <a href="https://sulek.dev/">Sulek API</a>.
+/// Generated for the Flash client version WIN63-202504171200-169586654 from the <a href="https://sulek.dev/">Sulek API</a>.
 /// </summary>
 public static class Out {
     private static Identifier _([CallerMemberName]string? name = null)
@@ -25,8 +25,10 @@ public static class Out {
     public static readonly Identifier AddItemToTrade = _();
     public static readonly Identifier AddItemsToTrade = _();
     public static readonly Identifier AddJukeboxDisk = _();
+    public static readonly Identifier AddNftToTrade = _();
     public static readonly Identifier AddSpamWallPostIt = _();
     public static readonly Identifier AmbassadorAlert = _();
+    public static readonly Identifier AppealCfh = _();
     public static readonly Identifier ApplySnapshot = _();
     public static readonly Identifier ApproveAllMembershipRequests = _();
     public static readonly Identifier ApproveMembershipRequest = _();
@@ -66,6 +68,8 @@ public static class Out {
     public static readonly Identifier ChatReviewGuideVote = _();
     public static readonly Identifier ChatReviewSessionCreate = _();
     public static readonly Identifier CheckUserName = _();
+    public static readonly Identifier ClaimDailyTask = _();
+    public static readonly Identifier ClaimNftClaims = _();
     public static readonly Identifier ClickFurni = _();
     public static readonly Identifier ClientHello = _();
     public static readonly Identifier CloseIssueDefaultAction = _();
@@ -147,6 +151,7 @@ public static class Out {
     public static readonly Identifier GetCatalogPage = _();
     public static readonly Identifier GetCatalogPageWithEarliestExpiry = _();
     public static readonly Identifier GetCfhChatlog = _();
+    public static readonly Identifier GetCfhMyReportStatus = _();
     public static readonly Identifier GetCfhStatus = _();
     public static readonly Identifier GetClubGift = _();
     public static readonly Identifier GetClubOffers = _();
@@ -166,6 +171,7 @@ public static class Out {
     public static readonly Identifier GetCurrentTimingCode = _();
     public static readonly Identifier GetCustomRoomFilter = _();
     public static readonly Identifier GetDailyQuest = _();
+    public static readonly Identifier GetDailyTasks = _();
     public static readonly Identifier GetEmailStatus = _();
     public static readonly Identifier GetExtendedProfile = _();
     public static readonly Identifier GetExtendedProfileByName = _();
@@ -209,8 +215,11 @@ public static class Out {
     public static readonly Identifier GetModeratorRoomInfo = _();
     public static readonly Identifier GetModeratorUserInfo = _();
     public static readonly Identifier GetNextTargetedOffer = _();
+    public static readonly Identifier GetNftClaims = _();
     public static readonly Identifier GetNftCollections = _();
     public static readonly Identifier GetNftCredits = _();
+    public static readonly Identifier GetNftStoreOffers = _();
+    public static readonly Identifier GetNftTradeInventory = _();
     public static readonly Identifier GetNftTransferFee = _();
     public static readonly Identifier GetNowPlaying = _();
     public static readonly Identifier GetOccupiedTiles = _();
@@ -331,6 +340,7 @@ public static class Out {
     public static readonly Identifier NewUserExperienceScriptProceed = _();
     public static readonly Identifier NftCollectiblesClaimBonusItem = _();
     public static readonly Identifier NftCollectiblesClaimRewardItem = _();
+    public static readonly Identifier NftStorePurchase = _();
     public static readonly Identifier NftTransferAssets = _();
     public static readonly Identifier Open = _();
     public static readonly Identifier OpenCampaignCalendarDoor = _();
@@ -384,6 +394,7 @@ public static class Out {
     public static readonly Identifier RemoveItem = _();
     public static readonly Identifier RemoveItemFromTrade = _();
     public static readonly Identifier RemoveJukeboxDisk = _();
+    public static readonly Identifier RemoveNftFromTrade = _();
     public static readonly Identifier RemoveOwnRoomRightsRoom = _();
     public static readonly Identifier RemovePetFromFlat = _();
     public static readonly Identifier RemoveRights = _();
@@ -494,6 +505,7 @@ public static class Out {
     public static readonly Identifier VoteForRoom = _();
     public static readonly Identifier Whisper = _();
     public static readonly Identifier WiredClearErrorLogs = _();
+    public static readonly Identifier WiredClickUser = _();
     public static readonly Identifier WiredGetAllVariableHolders = _();
     public static readonly Identifier WiredGetAllVariablesDiffs = _();
     public static readonly Identifier WiredGetAllVariablesHash = _();
